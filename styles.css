@@ -924,49 +924,6 @@ body{
 
 }
 
-    /* ========================= */
-/* VIDEO PRODUCT */
-/* ========================= */
-
-.product-image{
-    position: relative;
-}
-
-.product-image a{
-    text-decoration: none;
-}
-
-.play-button{
-    position: absolute;
-
-    top: 50%;
-    left: 50%;
-
-    transform: translate(-50%, -50%);
-
-    width: 70px;
-    height: 70px;
-
-    background-color: rgba(255,214,0,0.9);
-
-    color: black;
-
-    border-radius: 50%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    font-size: 30px;
-    font-weight: bold;
-
-    transition: 0.3s;
-}
-
-.product-image:hover .play-button{
-    transform: translate(-50%, -50%) scale(1.1);
-}
-
     /* LINK PRODUCTO VIDEO */
 
 .product-info h3 a{
