@@ -620,4 +620,146 @@ body{
         font-size: 20px;
     }
 
+    /* ========================= */
+/* MOBILE RESPONSIVE */
+/* ========================= */
+
+@media(max-width: 768px){
+
+    /* HEADER */
+
+    .header{
+        flex-direction: column;
+        gap: 15px;
+
+        padding: 18px 5%;
+    }
+
+    .logo h1{
+        font-size: 22px;
+    }
+
+    .navbar{
+        gap: 18px;
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+    }
+
+    .navbar a{
+        font-size: 14px;
+    }
+
+
+    /* HERO */
+
+    .hero{
+        padding: 0 6%;
+        height: 90vh;
+    }
+
+    .hero-content h2{
+        font-size: 42px;
+        line-height: 1.2;
+    }
+
+    .hero-content p{
+        font-size: 15px;
+    }
+
+
+    /* INFO */
+
+    .info-section{
+        padding: 80px 6%;
+    }
+
+    .info-card{
+        padding: 35px;
+    }
+
+    .info-card h3{
+        font-size: 30px;
+    }
+
+
+    /* FEATURES */
+
+    .features{
+        padding: 80px 6%;
+    }
+
+    .features h2{
+        font-size: 38px;
+    }
+
+    .features-container{
+        grid-template-columns: 1fr;
+    }
+
+    .feature-box{
+        padding: 35px;
+    }
+
+
+    /* PRODUCTOS */
+
+    .products-hero{
+        padding: 160px 6% 80px;
+    }
+
+    .products-hero h2{
+        font-size: 40px;
+    }
+
+    .products-section{
+        padding: 0 6% 80px;
+    }
+
+    .products-container{
+        grid-template-columns: 1fr;
+    }
+
+    .product-card img{
+        height: 320px;
+    }
+
+    .product-info h3{
+        font-size: 22px;
+    }
+
+
+    /* CONTACTO */
+
+    .contact-hero{
+        padding: 160px 6% 80px;
+    }
+
+    .contact-hero h2{
+        font-size: 40px;
+    }
+
+    .contact-section{
+        padding: 0 6% 80px;
+    }
+
+    .contact-container{
+        grid-template-columns: 1fr;
+    }
+
+    .contact-info,
+    .contact-form{
+        padding: 35px;
+    }
+
+
+    /* FOOTER */
+
+    .footer{
+        padding: 50px 6%;
+    }
+
+}
+
 }
