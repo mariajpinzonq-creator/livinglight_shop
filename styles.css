@@ -768,30 +768,47 @@ body{
 
 @media screen and (max-width: 768px){
 
+/* ========================= */
+/* MOBILE RESPONSIVE */
+/* ========================= */
+
+@media screen and (max-width: 768px){
+
     /* HEADER */
 
     .header{
         display: flex;
         flex-direction: column;
 
+        align-items: center;
+        justify-content: center;
+
+        gap: 12px;
+
+        padding: 15px 5%;
+
+        position: fixed;
+    }
+
+    /* LOGO */
+
+    .logo{
+        display: flex;
         justify-content: center;
         align-items: center;
 
-        gap: 15px;
-
-        flex-wrap: wrap;
-
-        padding: 20px 5%;
+        gap: 10px;
     }
 
-    .logo{
-        justify-content: center;
+    .logo img{
+        width: 38px;
+        height: 38px;
     }
 
     .logo h1{
-        font-size: 22px;
+        font-size: 20px;
+        letter-spacing: 1px;
     }
-
 
     /* NAVBAR */
 
@@ -799,53 +816,110 @@ body{
         width: 100%;
 
         display: flex;
+
         justify-content: center;
         align-items: center;
 
         flex-wrap: wrap;
 
-        gap: 20px;
+        gap: 15px;
     }
 
     .navbar a{
         font-size: 14px;
     }
 
-
     /* HERO */
 
     .hero{
-        padding: 0 6%;
+        padding: 180px 7% 100px;
+        height: auto;
     }
 
     .hero-content h2{
-        font-size: 42px;
+        font-size: 52px;
+        line-height: 1.05;
     }
 
     .hero-content p{
-        font-size: 15px;
+        font-size: 16px;
+        line-height: 1.8;
     }
 
+    .btn{
+        width: 100%;
+        max-width: 320px;
+    }
+
+    /* INFO */
+
+    .info-section{
+        padding: 80px 7%;
+    }
+
+    .info-card{
+        padding: 35px;
+    }
+
+    .info-card h3{
+        font-size: 30px;
+    }
 
     /* FEATURES */
+
+    .features{
+        padding: 80px 7%;
+    }
+
+    .features h2{
+        font-size: 36px;
+    }
 
     .features-container{
         grid-template-columns: 1fr;
     }
 
+    .feature-box{
+        padding: 35px;
+    }
 
     /* PRODUCTOS */
+
+    .products-hero{
+        padding: 170px 7% 70px;
+    }
+
+    .products-hero h2{
+        font-size: 42px;
+    }
 
     .products-container{
         grid-template-columns: 1fr;
     }
 
+    .product-card img{
+        height: 300px;
+    }
 
     /* CONTACTO */
+
+    .contact-hero{
+        padding: 170px 7% 70px;
+    }
 
     .contact-container{
         grid-template-columns: 1fr;
     }
 
-}
+    .contact-info,
+    .contact-form{
+        padding: 35px;
+    }
 
+    /* FOOTER */
+
+    .footer{
+        padding: 50px 7%;
+    }
+
+}
