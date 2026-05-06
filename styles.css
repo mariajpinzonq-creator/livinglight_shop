@@ -702,8 +702,9 @@ body{
         padding: 35px;
     }
 
+}
 
-    /* PRODUCTOS */
+        /* PRODUCTOS */
 
     .products-hero{
         padding: 160px 6% 80px;
@@ -761,5 +762,90 @@ body{
     }
 
 }
+/* ========================= */
+/* MOBILE RESPONSIVE */
+/* ========================= */
+
+@media screen and (max-width: 768px){
+
+    /* HEADER */
+
+    .header{
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
+        gap: 15px;
+
+        flex-wrap: wrap;
+
+        padding: 20px 5%;
+    }
+
+    .logo{
+        justify-content: center;
+    }
+
+    .logo h1{
+        font-size: 22px;
+    }
+
+
+    /* NAVBAR */
+
+    .navbar{
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        flex-wrap: wrap;
+
+        gap: 20px;
+    }
+
+    .navbar a{
+        font-size: 14px;
+    }
+
+
+    /* HERO */
+
+    .hero{
+        padding: 0 6%;
+    }
+
+    .hero-content h2{
+        font-size: 42px;
+    }
+
+    .hero-content p{
+        font-size: 15px;
+    }
+
+
+    /* FEATURES */
+
+    .features-container{
+        grid-template-columns: 1fr;
+    }
+
+
+    /* PRODUCTOS */
+
+    .products-container{
+        grid-template-columns: 1fr;
+    }
+
+
+    /* CONTACTO */
+
+    .contact-container{
+        grid-template-columns: 1fr;
+    }
 
 }
+
