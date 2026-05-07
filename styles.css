@@ -327,6 +327,9 @@ body{
     font-size: 18px;
 }
 
+.product-card{
+    height: 100%;
+}
 
 /* ========================= */
 /* PRODUCTS */
@@ -338,8 +341,12 @@ body{
 
 .products-container{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+
     gap: 35px;
+
+    align-items: start;
 }
 
 
